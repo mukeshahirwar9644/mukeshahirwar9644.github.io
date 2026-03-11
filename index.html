@@ -16,6 +16,31 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+/* QuerySafe chatbot text visibility fix */
+
+#querySafe-widget {
+  --qs-user-msg-bg: #7c3aed;
+  --qs-bot-msg-bg: #f3f4f6;
+  --qs-text-color: #000000;
+}
+
+#querySafe-widget * {
+  color: #000000 !important;
+}
+
+#querySafe-widget .message,
+#querySafe-widget .bot-message,
+#querySafe-widget .user-message {
+  color: #000000 !important;
+}
+
+#querySafe-widget input,
+#querySafe-widget textarea {
+  color: #000000 !important;
+}
+
+</style>
 <script>
         (function(w,d,s,id){
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -351,6 +376,7 @@
 
 
 </html>
+
 
 
 
