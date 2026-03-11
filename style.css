@@ -960,3 +960,17 @@ section:nth-child(odd) .animate.scroll,
         width: 0;
     }
 }
+/* ===== QuerySafe Chatbot Fix ===== */
+
+#querySafe-widget,
+#querySafe-widget * {
+    font-family: Arial, sans-serif !important;
+    color: #000000 !important;
+}
+
+/* chatbot message bubble text */
+#querySafe-widget .message,
+#querySafe-widget .bot-message,
+#querySafe-widget .user-message {
+    color: #000000 !important;
+}
