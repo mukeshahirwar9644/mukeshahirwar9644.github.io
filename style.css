@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
 
-* {
+body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -973,4 +973,7 @@ section:nth-child(odd) .animate.scroll,
 #querySafe-widget .bot-message,
 #querySafe-widget .user-message {
     color: #000000 !important;
+}
+#querySafe-widget {
+    all: unset;
 }
