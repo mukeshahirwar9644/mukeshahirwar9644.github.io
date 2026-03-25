@@ -977,4 +977,20 @@ section:nth-child(odd) .animate.scroll,
 #querySafe-widget {
     all: unset;
 }
+/* WhatsApp Floating Button - FIXED */
+a.wa-btn {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;   /* 👉 RIGHT corner fix */
+  left: auto !important;    /* 👉 LEFT remove */
+  width: 60px !important;
+  height: 60px !important;
+  z-index: 9999 !important;
+}
 
+a.wa-btn img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  display: block;
+}
